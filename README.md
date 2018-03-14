@@ -11,3 +11,8 @@ http://blog.720ui.com/2017/springboot_02_data_cache_concurrenmapcache/
 
 4、增加打war包的配置，请看pom里面相关配置
 5、增加热部署的配置，请看pom里面配置
+参考
+https://www.cnblogs.com/winner-0715/p/6666579.html
+6、增加对HTTP的监控
+参考：
+http://www.ityouknow.com/springboot/2018/02/06/spring-boot-actuator.html

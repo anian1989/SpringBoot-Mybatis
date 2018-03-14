@@ -105,6 +105,18 @@
             <version>1.4.4.RELEASE</version>
             <scope>test</scope>
         </dependency>
+
+        <!--HTTP应用监控-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+        <!--HTTP监控的安全控制，单纯的监控可以没有此配置-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>
+
     </dependencies>
 
     <build>
