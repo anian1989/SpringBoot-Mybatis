@@ -5,3 +5,6 @@ https://www.bysocket.com/?p=1712
 2、实现redis的简单连接
 参考
 http://blog.720ui.com/2016/springboot_02_data_redis/
+3、实现了对Spring自带Cache的整合，因为和redis都属于缓存建议只保留一种
+入口在 CacheController
+http://blog.720ui.com/2017/springboot_02_data_cache_concurrenmapcache/
