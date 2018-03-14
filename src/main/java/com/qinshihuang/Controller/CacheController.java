@@ -23,6 +23,7 @@ public class CacheController {
         Long startTime = System.currentTimeMillis();
         String timestamp = this.cacheService.getByCache();
         Long endTime = System.currentTimeMillis();
+//        System.out.println(789465123);
         System.out.println("耗时: " + (endTime - startTime));
         return timestamp+"";
     }
